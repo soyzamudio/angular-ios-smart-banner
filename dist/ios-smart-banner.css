@@ -1,0 +1,86 @@
+.smart-banner {
+  position: absolute;
+  background: #F2F2F2;
+  left: 0;
+  border-bottom: 0.1em solid #e8e8e8;
+  width: 100%;
+  height: 4.85em;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid #D0D0D0;
+  z-index: 9998;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  -webkit-text-size-adjust: none;
+}
+
+.smart-banner-close {
+  display: inline-block;
+  position: absolute;
+  left: .7em;
+  top: 40%;
+}
+
+.smart-banner-close img {
+  width: .6em;
+  height: .6em;
+}
+
+.smart-banner-icon {
+  display: inline-block;
+  position: absolute;
+  left: 2em;
+  top: 0.65em;
+  background-size: cover;
+}
+
+.smart-banner-icon img {
+  width: 3.6em;
+  height: 3.6em;
+  border: 1px solid #ccc;
+  border-radius: 0.65em;
+}
+
+.smart-banner-info {
+  position:absolute;
+  left: 6.5em;
+  top: .75em;
+  width: 100%;
+  color: #444;
+}
+
+.smart-banner-info h3 {
+  margin: 0;
+  font-size: .8em;
+  font-weight: 500;
+  width: 60%;
+}
+
+.smart-banner-info h4 {
+  margin: 2px 0;
+  font-size: .6em;
+  color: #666;
+  font-weight: 400;
+}
+
+.smart-banner-info .rating {
+  margin: 2px 0 3px;
+  line-height: 8px;
+}
+
+.smart-banner-info .rating img {
+  height: 8px;
+}
+
+.smart-banner-view {
+  position: absolute;
+  font-weight:normal;
+  color:#007aff;
+  right: 1em;
+  top: 40%;
+  font-size:0.9em;
+  text-transform:uppercase;
+  text-align: right;
+  text-decoration: none;
+}

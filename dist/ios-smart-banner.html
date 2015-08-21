@@ -1,0 +1,19 @@
+<div class="smart-banner">
+  <div class="smart-banner-close" ng-click="dismiss()">
+    <img src="vendor/angular-ios-smart-banner/img/close.png"/>
+  </div>
+  <div class='smart-banner-icon'>
+    <img src="{{::app.image}}"/>
+  </div>
+  <div class='smart-banner-info'>
+    <h3>{{::app.appName}}</h3>
+    <h4>By {{::app.sellerName}}</h4>
+    <div class="rating">
+      <img src="vendor/angular-ios-smart-banner/img/stars.png"/>
+    </div>
+    <h4>GET — On the App Store</h4>
+  </div>
+  <a class='smart-banner-view' href='{{::app.appUrl}}' target="_blank">
+    VIEW
+  </a>
+</div>
