@@ -2,6 +2,7 @@
   position: absolute;
   background: #F2F2F2;
   left: 0;
+  top: 0;
   border-bottom: 0.1em solid #e8e8e8;
   width: 100%;
   height: 4.85em;
@@ -13,12 +14,13 @@
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
   -webkit-text-size-adjust: none;
+  margin-bottom: 4.85em;
 }
 
 .smart-banner-close {
   display: inline-block;
   position: absolute;
-  left: .7em;
+  left: .6em;
   top: 40%;
 }
 
@@ -30,7 +32,7 @@
 .smart-banner-icon {
   display: inline-block;
   position: absolute;
-  left: 2em;
+  left: 1.75em;
   top: 0.65em;
   background-size: cover;
 }
@@ -44,8 +46,8 @@
 
 .smart-banner-info {
   position:absolute;
-  left: 6.5em;
-  top: .75em;
+  left: 6em;
+  top: .6em;
   width: 100%;
   color: #444;
 }
@@ -58,7 +60,7 @@
 }
 
 .smart-banner-info h4 {
-  margin: 2px 0;
+  margin: 2px 0 0;
   font-size: .6em;
   color: #666;
   font-weight: 400;

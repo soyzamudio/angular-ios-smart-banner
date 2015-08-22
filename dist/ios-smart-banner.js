@@ -2,6 +2,7 @@ angular.module('smartBanner', [])
 .directive('iosSmartBanner', [ 'appStoreData', function(appStoreData) {
   return {
     restrict: 'E',
+    // replace: true,
     scope: {
       appId: '=appId'
     },
@@ -9,7 +10,11 @@ angular.module('smartBanner', [])
     link: function(scope, element, attr) {
       scope.app = {};
 
-      console.log(scope);
+      scope.isMobile = {
+          iOS: function() {
+              return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+          }
+      };
 
       appStoreData.getData(314673827)
       .then(function(response) {
